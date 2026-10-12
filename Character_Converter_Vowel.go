@@ -1,30 +1,30 @@
-package main
+ package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	var s string
-	fmt.Scan(&s)
+// func main() {
+// 	var s string
+// 	fmt.Scan(&s)
 
-	result := ""
+// 	result := ""
 
-	for i := 0; i < len(s); i++ {
-		ch := s[i]
+// 	for i := 0; i < len(s); i++ {
+// 		ch := s[i]
 
-		if ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' {
-			count := i + 1
+// 		if ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' {
+// 			count := i + 1
 
-			if count > 5 {
-				count = 5
-			}
+// 			if count > 5 {
+// 				count = 5
+// 			}
 
-			for j := 0; j < count; j++ {
-				result += "_"
-			}
-		} else {
-			result += string(ch)
-		}
-	}
+// 			for j := 0; j < count; j++ {
+// 				result += "_"
+// 			}
+// 		} else {
+// 			result += string(ch)
+// 		}
+// 	}
 
-	fmt.Println(result)
-}
+// 	fmt.Println(result)
+// }
