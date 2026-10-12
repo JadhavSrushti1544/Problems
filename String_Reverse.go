@@ -1,18 +1,18 @@
 
 package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-    var s string
-    fmt.Print("Enter string: ")
-    fmt.Scan(&s)
+// func main() {
+//     var s string
+//     fmt.Print("Enter string: ")
+//     fmt.Scan(&s)
 
-    reverse := ""
+//     reverse := ""
 
-    for i := len(s) - 1; i >= 0; i-- {
-        reverse = reverse + string(s[i])
-    }
+//     for i := len(s) - 1; i >= 0; i-- {
+//         reverse = reverse + string(s[i])
+//     }
 
-    fmt.Println("Reverse:", reverse)
-}
+//     fmt.Println("Reverse:", reverse)
+// }
