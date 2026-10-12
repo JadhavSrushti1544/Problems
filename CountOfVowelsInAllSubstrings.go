@@ -1,23 +1,23 @@
 
 package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	var s string
-	fmt.Scan(&s)
+// func main() {
+// 	var s string
+// 	fmt.Scan(&s)
 
-	n := len(s)
-	total := 0
+// 	n := len(s)
+// 	total := 0
 
-	for i := 0; i < n; i++ {
-		if s[i] == 'a' || s[i] == 'e' ||
-			s[i] == 'i' || s[i] == 'o' ||
-			s[i] == 'u' {
+// 	for i := 0; i < n; i++ {
+// 		if s[i] == 'a' || s[i] == 'e' ||
+// 			s[i] == 'i' || s[i] == 'o' ||
+// 			s[i] == 'u' {
 
-			total += (i + 1) * (n - i)
-		}
-	}
+// 			total += (i + 1) * (n - i)
+// 		}
+// 	}
 
-	fmt.Println(total)
-}
+// 	fmt.Println(total)
+// }
